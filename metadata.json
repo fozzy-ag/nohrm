@@ -1,0 +1,18 @@
+{
+  "id": "nohrm",
+  "name": "No HRM",
+  "shortName": "No HRM",
+  "version": "0.01",
+  "author": "fozzy-ag",
+  "description": "Fully disables the heart rate monitor. Runs at boot and forces the HRM off for every attempt to enable it, regardless of which watchface or app is used. Uninstall to restore normal HRM behaviour.",
+  "icon": "app.png",
+  "screenshots": [{"url": "screenshot.png"}],
+  "type": "bootloader",
+  "tags": "tool,system,health",
+  "supports": ["BANGLEJS2"],
+  "allow_emulator": true,
+  "readme": "README.md",
+  "storage": [
+    {"name": "nohrm.boot.js", "url": "boot.js"}
+  ]
+}
