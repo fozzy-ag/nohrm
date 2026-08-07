@@ -49,6 +49,10 @@ Bangle.isHRMOn();   // expect: false
 
 If `false`, the HRM is disabled (the enable attempt is instantly forced off, so the sensor never powers up).
 
+## Credits
+
+- Icon: [Red Heart Rate](https://www.iconpacks.net/free-icon/red-heart-rate-23223.html) by [Iconpacks](https://www.iconpacks.net) — free for commercial use, modified (resized and crossed out for "No HRM")
+
 ## Version History
 
 See [ChangeLog](ChangeLog) for the full version history.
