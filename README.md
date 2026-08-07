@@ -6,7 +6,7 @@ A [Bangle.js 2](https://banglejs.com/) boot app that **fully disables the heart 
 
 - **Runs at boot** — as a `bootloader` type app it starts before any watchface or app loads
 - **Blocks every enable attempt** — `Bangle.setHRMPower` is overridden so any app, widget, workout app or health-tracking app that tries to switch the HRM on is silently forced off
-- **No HRM hardware activity** — the sensor never powers up, saving ~1.0mA of battery
+- **No HRM hardware activity** — the sensor never powers up, saving the HRM's ~1.0mA draw listed in the [official Bangle.js 2 power consumption specs](https://www.espruino.com/Bangle.js2#power-consumption)
 - **Emulator safe** — guards every API call with an existence check
 - **Easy to remove** — uninstall the app to restore normal HRM behaviour
 
