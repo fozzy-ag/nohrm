@@ -4,7 +4,7 @@
   "shortName": "No HRM",
   "version": "0.01",
   "author": "fozzy-ag",
-  "description": "Fully disables the heart rate monitor. Runs at boot and forces the HRM off for every attempt to enable it, regardless of which watchface or app is used. Uninstall to restore normal HRM behaviour.",
+  "description": "AI - No HRM - a Bangle.js 2 boot app that fully disables the heart rate monitor on any watchface/app. Power figures: https://www.espruino.com/Bangle.js2#power-consumption",
   "icon": "app.png",
   "screenshots": [{"url": "screenshot.png"}],
   "type": "bootloader",
